@@ -45,7 +45,11 @@ st.write("## Visual Inspection Automation with Pre-trained Amazon SageMaker Mode
 st.write(
     ":dog: This solution detects product defects with an end-to-end Deep Learning workflow for quality control in manufacturing process. The solution takes input of product images and identifies defect regions with bounding boxes. In particular, this solution uses a pre-trained Sagemaker object detection model and fine-tune on the target dataset.:grin:"
 )
-st.sidebar.write("## Upload and download :gear:")
+with st.sidebar:
+  st.image("./reply.png")
+  
+st.sidebar.write("## Upload/ Model / download :gear:")
+
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
 
