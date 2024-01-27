@@ -1,0 +1,5 @@
+Pillow==9.3.0
+streamlit==1.21.0
+numpy==1.23.0
+python-dotenv
+boto3
